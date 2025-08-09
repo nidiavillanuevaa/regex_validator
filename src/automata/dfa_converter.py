@@ -1,5 +1,5 @@
-from src.automata.automata_simulator import epsilon_closure, move
-from src.automata.nfa_builder import State, NFA
+from automata.automata_simulator import epsilon_closure, move
+from automata.nfa_builder import State, NFA
 
 class DFAState:
     _id_counter = 0
